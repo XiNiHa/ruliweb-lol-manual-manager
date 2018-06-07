@@ -16,7 +16,8 @@
 </template>
 
 <script>
-import * as firebase from 'firebase'
+import firebase from 'firebase/app'
+import 'firebase/firestore'
 import Editor from './components/Editor.vue'
 import Preview from './components/Preview.vue'
 import Axios from 'axios'

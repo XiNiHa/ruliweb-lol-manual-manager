@@ -4,16 +4,13 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import { store } from './store'
-import * as firebase from 'firebase'
+import firebase from 'firebase/app'
 
 Vue.config.productionTip = false
 firebase.initializeApp({
   apiKey: 'AIzaSyDS8CB514Z6lDh7uNFRDBPj8t5r2XbtwVo',
-  authDomain: 'ruliweb-lol-manual-manager.firebaseapp.com',
   databaseURL: 'https://ruliweb-lol-manual-manager.firebaseio.com',
-  projectId: 'ruliweb-lol-manual-manager',
-  storageBucket: 'ruliweb-lol-manual-manager.appspot.com',
-  messagingSenderId: '800213840897'
+  projectId: 'ruliweb-lol-manual-manager'
 })
 
 /* eslint-disable no-new */
