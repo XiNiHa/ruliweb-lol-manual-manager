@@ -26,19 +26,19 @@ export default {
   data () {
     return {
       imageURLs: {
-        챔피언: `http://ddragon.leagueoflegends.com/cdn/${Config.version}/img/champion/`,
+        챔피언: `https://ddragon.leagueoflegends.com/cdn/${Config.version}/img/champion/`,
         스킬: {
-          passive: `http://ddragon.leagueoflegends.com/cdn/${Config.version}/img/passive/`,
-          active: `http://ddragon.leagueoflegends.com/cdn/${Config.version}/img/spell/`
+          passive: `https://ddragon.leagueoflegends.com/cdn/${Config.version}/img/passive/`,
+          active: `https://ddragon.leagueoflegends.com/cdn/${Config.version}/img/spell/`
         },
-        스펠: `http://ddragon.leagueoflegends.com/cdn/${Config.version}/img/spell/`,
-        아이템: `http://ddragon.leagueoflegends.com/cdn/${Config.version}/img/item/`
+        스펠: `https://ddragon.leagueoflegends.com/cdn/${Config.version}/img/spell/`,
+        아이템: `https://ddragon.leagueoflegends.com/cdn/${Config.version}/img/item/`
       },
       dataURLs: {
-        챔피언: `http://ddragon.leagueoflegends.com/cdn/${Config.version}/data/ko_KR/champion.json`,
-        스킬: `http://ddragon.leagueoflegends.com/cdn/${Config.version}/data/ko_KR/champion/<name>.json`,
-        스펠: `http://ddragon.leagueoflegends.com/cdn/${Config.version}/data/ko_KR/summoner.json`,
-        아이템: `http://ddragon.leagueoflegends.com/cdn/${Config.version}/data/ko_KR/item.json`
+        챔피언: `https://ddragon.leagueoflegends.com/cdn/${Config.version}/data/ko_KR/champion.json`,
+        스킬: `https://ddragon.leagueoflegends.com/cdn/${Config.version}/data/ko_KR/champion/<name>.json`,
+        스펠: `https://ddragon.leagueoflegends.com/cdn/${Config.version}/data/ko_KR/summoner.json`,
+        아이템: `https://ddragon.leagueoflegends.com/cdn/${Config.version}/data/ko_KR/item.json`
       },
       imgs: [],
       champ: ''

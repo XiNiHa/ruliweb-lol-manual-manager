@@ -39,7 +39,7 @@ export default {
     }
   },
   mounted () {
-    Axios.get(`http://ddragon.leagueoflegends.com/cdn/${Config.version}/data/ko_KR/champion.json`).then(res => {
+    Axios.get(`https://ddragon.leagueoflegends.com/cdn/${Config.version}/data/ko_KR/champion.json`).then(res => {
       this.$store.state.champs = res.data.data
     })
   },
