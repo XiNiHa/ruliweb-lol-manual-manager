@@ -33,7 +33,7 @@ export default {
       this.$emit('change', this.editor.getValue())
     },
     addIcon (img) {
-      this.editor.insert(`<img src="${img}" class='manual_icon'`)
+      this.editor.insert(`<img src="${img}" class="manual_icon">`)
     }
   }
 }
