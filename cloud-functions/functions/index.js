@@ -10,6 +10,6 @@ exports.getManual = functions.https.onRequest((req, res) => {
     if (doc.exists) {
       return res.send(doc.data().value)
     }
-    return false;
+    return res.send(404, 'Manual Not Available')
   })
 })
