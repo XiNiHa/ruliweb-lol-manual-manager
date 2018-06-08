@@ -5,10 +5,11 @@ import App from './App'
 import router from './router'
 import { store } from './store'
 import firebase from 'firebase/app'
+import Config from './config'
 
 Vue.config.productionTip = false
 firebase.initializeApp({
-  apiKey: 'AIzaSyDS8CB514Z6lDh7uNFRDBPj8t5r2XbtwVo',
+  apiKey: Config.firebaseApiKey,
   databaseURL: 'https://ruliweb-lol-manual-manager.firebaseio.com',
   projectId: 'ruliweb-lol-manual-manager'
 })
