@@ -26,7 +26,7 @@ export default {
     this.editor.session.setMode('ace/mode/html')
     this.editor.on('change', this.updateSource)
     this.updateSource()
-    Axios.get('https://anesin1109.github.io/ruliweb-lol-manual-template/index.html').then(res => this.editor.setValue(res.data))
+    Axios.get('https://xiniha.github.io/ruliweb-lol-manual-template/index.html').then(res => this.editor.setValue(res.data))
   },
   methods: {
     updateSource () {

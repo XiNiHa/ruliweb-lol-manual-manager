@@ -2,7 +2,7 @@
   "name": "manual-uploader",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "anesin1109 <anesin1109@naver.com>",
+  "author": "Justus Shin <anesin1109@naver.com>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
